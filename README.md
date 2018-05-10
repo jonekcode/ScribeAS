@@ -1,5 +1,5 @@
 
-![](https://i.imgur.com/b9yli05.png)
+![](https://i.imgur.com/1iRhIRy.gif)
 # ScribeBot
 
 ScribeBot is a scriptable automation system.
@@ -10,6 +10,11 @@ With a little knowledge of Lua, you can automate mundane tasks, create macros or
   <img src="https://i.imgur.com/BMsHIQR.png" />
 </p>
 
+## Important Notice
+This program uses unmanaged code (see: https://msdn.microsoft.com/en-us/library/ms973872.aspx#manunman_topic6) and provides low-level functionality that if used improperly (intentionally or not) could affect system's security and reliability. 
+
+**Only download scripts from trusted sources and check the code before you run it.**
+
 ## The Key Features
 - Lua interpreter hooked to numerous APIs, interfaces and libraries that allow you to create robust automation systems.
 - A decent (it's not that good) interface.
@@ -18,35 +23,32 @@ With a little knowledge of Lua, you can automate mundane tasks, create macros or
 - Built-in logging system.
 
 ## Planned Features
-- Move workshop to my own website (since github has a noticable delay and it's rate limited)
-- Incorporate Selenium to allow creation of web-based automations.
-- Built-in manual that enlists all types, classes and methods exposed to lua environment.
-- Gamepad support.
-- Autoupdater.
-- Ability to construct GUIs using Lua (besides input.showPrompt function that is already in)
-- Simple Hotkey binding for macros.
-- Package creator/editor.
-
-## Important Notice
-This program uses unmanaged code (see: https://msdn.microsoft.com/en-us/library/ms973872.aspx#manunman_topic6) and provides low-level functionality that if used improperly (intentionally or not) could affect system's security and reliability. 
-
-**Only download scripts from trusted sources and check the code before you run it.**
+|                   Features                    |                   Checklist                  |
+|-----------------------------------------------|----------------------------------------------|
+|Move workshop to my own website (since github has a noticable delay and it's rate limited) |❌|
+|Incorporate Selenium to allow creation of web-based automations.                           |❌|
+|Built-in manual that enlists all types, classes and methods exposed to lua environment.    |❌|
+|Gamepad support.                                                                           |❌|
+|Autoupdater.                                                                               |❌|
+|Ability to construct GUIs using Lua (besides input.showPrompt function that is already in) |❌|
+|Simple Hotkey binding for macros.                                                          |❌|
+|Package creator/editor.                                                                    |❌|
 
 ## Usage
-- Run ScribeBot.exe.
-- Browse workshop for packages, hit download under package you want to get.
-- Select from a list of packages (stored in /Data/Package).
-- Check (or don't) the 'Asynchronous' option.
-- Hit 'Run'.
+1. Run `ScribeBot.exe.`
+2. Browse workshop for packages, hit download under package you want to get.
+3. Select from a list of packages (stored in /Data/Package).
+4. Check (or don't) the 'Asynchronous' option.
+5. Hit 'Run'.
 
 ## Writting for ScribeBot
 **THIS ONLY APPLIES TO RELEASE 0.3b, IF YOU DON'T WANT TO GO THROUGH THIS, DOWNLOAD 0.2b**
 
 There temporarily is no package editor, to create one follow steps below:
-- Copy the "Test Package.sbpack" located in Data\Packages.
+- Copy the `Test Package.sbpack` located in Data\Packages.
 - Paste it into the same directory and rename to whatever you want it to be named.
-- Open it with ZIP (ZIP2, ZIP7 or WinRar).
-- Edit info.json and change "EntryPoint" to whatever you want your lua file to be called.
+- Open it with ZIP (ZIP2, ZIP7 or [WinRar](https://www.rarlab.com/)).
+- Edit `info.json` and change "EntryPoint" to whatever you want your lua file to be called.
 - Rename the lua file to the same thing.
 - Open Lua file and start writting your script!
 
