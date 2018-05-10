@@ -1,6 +1,6 @@
-#**README updated with upload of Release-0.3b**
+
+![](https://i.imgur.com/b9yli05.png)
 # ScribeBot
-![](https://i.imgur.com/b9yli05.png) 
 
 ScribeBot is a scriptable automation system.
 
@@ -54,3 +54,6 @@ There temporarily is no package editor, to create one follow steps below:
 - If you don't check the 'Asynchronous' option, the script will run on the same thread as the interface - rendering it unusable until the script is done.
 - If you check the 'Asynchronous' option, syntax errors might not be properly passed to the console (which isn't big of a deal, just get yourself a proper editor with a linter).
 
+<p align="center">
+  <i>README updated with upload of Release-0.3b</i>
+</p>
