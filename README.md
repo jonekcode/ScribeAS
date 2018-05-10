@@ -1,12 +1,14 @@
 #**README updated with upload of Release-0.3b**
 # ScribeBot
-![](https://i.imgur.com/nPWbUCM.png) 
+![](https://imgur.com/82P4zuP) 
 
 ScribeBot is a scriptable automation system.
 
 With a little knowledge of Lua, you can automate mundane tasks, create macros or even create a second bot.
 
-![https://i.imgur.com/BMsHIQR.png](https://i.imgur.com/BMsHIQR.png)
+<p align="center">
+  <img src="https://i.imgur.com/BMsHIQR.png" />
+</p>
 
 ## The Key Features
 - Lua interpreter hooked to numerous APIs, interfaces and libraries that allow you to create robust automation systems.
