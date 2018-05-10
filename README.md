@@ -1,6 +1,6 @@
 #**README updated with upload of Release-0.3b**
 # ScribeBot
-![](https://imgur.com/82P4zuP) 
+![](https://i.imgur.com/82P4zuP.png) 
 
 ScribeBot is a scriptable automation system.
 
